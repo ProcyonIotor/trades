@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html,body{
+	background-repeat: no-repeat;
+	background-image: linear-gradient(to bottom, #1798cf, #65f0d7);
+	background-size: 100% 100%;
+	font-family:  'Oswald', Gill Sans MT, ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: white;
+	height: 100%;
+	width: 100%;
+}
+
+#content{
+margin: 0 auto;
+text-align: center;
+}
+
+#chart_container{
+background-color: rgba(0,0,0,0.5);
+padding: 8px;
+display: inline-block;
+}
+
+#chart{
+max-width: 448px;
+background-image: url("style/grid.png");
+}
+
+td{
+width: 64px;
+height: 64px;
+text-align:center; 
+vertical-align:middle;
+}
+
+.ball{
+background-color: rgba(0,0,0,0.4);
+}
+
+.empty {
+background-color: rgba(0,0,0,0.4);
+}
+
+.HA {
+}
+
+img{
+display: block;
+max-width: 48px;
+max-height: 48px;
+margin: auto;
+}
+
+#dots{
+	background: url('style/repeat-dots.png') repeat fixed center; 
+	height: 100%;
+}
+
+#stripes{
+	background-image: url('style/repeat-stripes.png');
+	background-repeat:repeat;
+	height: 100%;
+}
+
+table {
+border-collapse: collapse;
+}
+
+a {
+    color: white;
+	text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+td:hover{
+background-color: orange;
+}
+
+#title {
+    font-family: 'Lobster', Impact, Charcoal, "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 64px;
+	text-align: center;
+}
