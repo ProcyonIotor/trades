@@ -10,9 +10,10 @@
 
 html {
 	background-repeat: no-repeat;
-	background-image: linear-gradient(to bottom, #1798cf, #65f0d7);
+	background-image: linear-gradient(to bottom, #65f0d7, #1798cf);
 	background-attachment: fixed;
 	background-size: cover;
+	background-color: #1798cf;
 }
 
 body{
@@ -47,6 +48,7 @@ margin-bottom: 4px;
 background-color: rgba(0,0,0,0.65);
 padding: 8px;
 display: inline-block;
+min-height: 100%;
 }
 
 #chart{
