@@ -38,7 +38,8 @@ text-align: center;
 }
 
 #chart_container{
-margin-top: 80px;
+margin-top: 68px;
+margin-bottom: 60px;
 background-color: rgba(0,0,0,0.65);
 padding: 8px;
 display: inline-block;
@@ -54,6 +55,8 @@ width: 64px;
 height: 64px;
 text-align:center; 
 vertical-align:middle;
+min-width: 64px;
+min-height: 64px;
 }
 
 .ball{
@@ -65,10 +68,15 @@ background-color: rgba(0,0,0,0.4);
 }
 
 .HA {
+background-image: url("style/HA.png");
 }
 
 .EM {
-background-image: url("style/egg-moves-side.png");
+background-image: url("style/EM.png");
+}
+
+.HA-EM {
+background-image: url("style/HAEM.png");
 }
 
 img{
