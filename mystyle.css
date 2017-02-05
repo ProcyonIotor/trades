@@ -53,7 +53,7 @@ min-height: 100%;
 
 #chart{
 max-width: 448px;
-background-image: url("style/grid.png");
+background-image: url("style/grid-small.png");
 }
 
 td{
@@ -101,13 +101,13 @@ margin: auto;
 }
 
 #dots{
-	background: url('style/repeat-dots.png') repeat fixed center; 
+	background: url('style/repeat-dots-small.png') repeat fixed center; 
 	background-attachment: fixed;
 	height: 100%;
 }
 
 #stripes{
-	background-image: url('style/repeat-stripes.png');
+	background-image: url('style/repeat-stripes-small.png');
 	background-attachment: fixed;
 	background-repeat:repeat fixed;
 	height: 100%;
