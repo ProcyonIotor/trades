@@ -8,11 +8,14 @@
 	vertical-align: baseline;
 }
 
-html,body{
+html {
 	background-repeat: no-repeat;
 	background-image: linear-gradient(to bottom, #1798cf, #65f0d7);
 	background-attachment: fixed;
-	background-size: 100% 100%;
+	background-size: cover;
+}
+
+body{
 	font-family:  'Oswald', Gill Sans MT, ‘Trebuchet MS’, Helvetica, sans-serif;
 	font-weight: 300;
 	font-size: 18px;
@@ -38,8 +41,8 @@ text-align: center;
 }
 
 #chart_container{
-margin-top: 68px;
-margin-bottom: 60px;
+margin-top: 64px;
+margin-bottom: 4px;
 background-color: rgba(0,0,0,0.65);
 padding: 8px;
 display: inline-block;
@@ -57,6 +60,14 @@ text-align:center;
 vertical-align:middle;
 min-width: 64px;
 min-height: 64px;
+}
+
+#details{
+margin: 0 auto;
+padding-bottom: 56px;
+padding-top: 4px;
+width: 320px;
+	background-color: rgba(0,0,0,0.65);
 }
 
 .ball{
@@ -89,12 +100,14 @@ margin: auto;
 #dots{
 	background: url('style/repeat-dots.png') repeat fixed center; 
 	background-attachment: fixed;
+	height: 100%;
 }
 
 #stripes{
 	background-image: url('style/repeat-stripes.png');
 	background-attachment: fixed;
 	background-repeat:repeat fixed;
+	height: 100%;
 }
 
 table {
