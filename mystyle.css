@@ -11,13 +11,25 @@
 html,body{
 	background-repeat: no-repeat;
 	background-image: linear-gradient(to bottom, #1798cf, #65f0d7);
+	background-attachment: fixed;
 	background-size: 100% 100%;
 	font-family:  'Oswald', Gill Sans MT, ‘Trebuchet MS’, Helvetica, sans-serif;
 	font-weight: 300;
-	font-size: 16px;
+	font-size: 18px;
 	color: white;
 	height: 100%;
 	width: 100%;
+}
+
+footer {
+	font-size: 18px;
+	position: fixed;
+	z-index: 100;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 12px 0;
+	background-color: rgba(0,0,0,0.65);
 }
 
 #content{
@@ -26,7 +38,8 @@ text-align: center;
 }
 
 #chart_container{
-background-color: rgba(0,0,0,0.5);
+margin-top: 80px;
+background-color: rgba(0,0,0,0.65);
 padding: 8px;
 display: inline-block;
 }
@@ -55,7 +68,7 @@ background-color: rgba(0,0,0,0.4);
 }
 
 .EM {
-background-image: url("style/egg-moves.png");
+background-image: url("style/egg-moves-side.png");
 }
 
 img{
@@ -67,13 +80,13 @@ margin: auto;
 
 #dots{
 	background: url('style/repeat-dots.png') repeat fixed center; 
-	height: 100%;
+	background-attachment: fixed;
 }
 
 #stripes{
 	background-image: url('style/repeat-stripes.png');
-	background-repeat:repeat;
-	height: 100%;
+	background-attachment: fixed;
+	background-repeat:repeat fixed;
 }
 
 table {
@@ -94,7 +107,12 @@ background-color: orange;
 }
 
 #title {
+	position: fixed;
     font-family: 'Lobster', Impact, Charcoal, "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 64px;
+    font-size: 36px;
 	text-align: center;
+	width: 100%;
+	padding: 4px 0;
+	background-color: rgba(0,0,0,0.65);
+	margin: 0 0 16px 0;
 }
