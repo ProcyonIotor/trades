@@ -54,6 +54,10 @@ background-color: rgba(0,0,0,0.4);
 .HA {
 }
 
+.EM {
+background-image: url("style/egg-moves.png");
+}
+
 img{
 display: block;
 max-width: 48px;
